@@ -89,12 +89,12 @@
     <Compile Include="Web\Person.aspx.designer.cs">
       <DependentUpon>Person.aspx</DependentUpon>
     </Compile>
-    <Compile Include="Web\Plantilla.Master.cs">
-      <DependentUpon>Plantilla.Master</DependentUpon>
+    <Compile Include="Web\MasterP.Master.cs">
+      <DependentUpon>MasterP.Master</DependentUpon>
       <SubType>ASPXCodeBehind</SubType>
     </Compile>
-    <Compile Include="Web\Plantilla.Master.designer.cs">
-      <DependentUpon>Plantilla.Master</DependentUpon>
+    <Compile Include="Web\MasterP.Master.designer.cs">
+      <DependentUpon>MasterP.Master</DependentUpon>
     </Compile>
   </ItemGroup>
   <ItemGroup>
@@ -108,7 +108,7 @@
     <Content Include="Web\Default.aspx" />
     <Content Include="Web\Package.aspx" />
     <Content Include="Web\Person.aspx" />
-    <Content Include="Web\Plantilla.Master" />
+    <Content Include="Web\MasterP.Master" />
   </ItemGroup>
   <ItemGroup />
   <PropertyGroup>

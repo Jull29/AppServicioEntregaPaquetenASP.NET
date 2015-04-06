@@ -16,6 +16,12 @@ namespace App.Web
 
         }
 
+
+
+
+
+
+
         protected void Button1_Click(object sender, EventArgs e)
         {
 
@@ -32,6 +38,11 @@ namespace App.Web
             Label7.Text = p.ToString();
             Server.Transfer("Person.aspx");
         }
+
+
+
+
+
 
         protected void Button2_Click(object sender, EventArgs e)
         {
