@@ -16,7 +16,7 @@
                         <asp:Label ID="Label2" runat="server" Text="Name"></asp:Label>
                     </th>
                     <td>
-                     <%@ Page Language="C#" MasterPageFile="~/Web/Plantilla.Master" AutoEventWireup="true" CodeBehind="Person.aspx.cs" Inherits="App.Web.Person" %>
+                     <%@ Page Language="C#" MasterPageFile="~/Web/MasterP.Master" AutoEventWireup="true" CodeBehind="Person.aspx.cs" Inherits="App.Web.Person" %>
    <asp:TextBox ID="TextBox2" runat="server"></asp:TextBox>
                     </td>
                 </tr>

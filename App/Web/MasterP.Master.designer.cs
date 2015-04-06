@@ -10,7 +10,7 @@
 namespace App.Web {
     
     
-    public partial class Plantilla {
+    public partial class MasterP {
         
         /// <summary>
         /// Control head.
