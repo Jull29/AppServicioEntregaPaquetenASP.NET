@@ -1,6 +1,4 @@
-﻿<%@ Page Language="C#" MasterPageFile="~/Web/Plantilla.Master" AutoEventWireup="true" CodeBehind="Person.aspx.cs" Inherits="App.Web.Person" %>
-
-<asp:Content ID="Content1" ContentPlaceHolderID="ContentPlaceHolder1" runat="server">
+﻿<asp:Content ID="Content1" ContentPlaceHolderID="ContentPlaceHolder1" runat="server">
     <div class="container">
     <div class="panel panel-default">
         <table class="table">
@@ -18,7 +16,8 @@
                         <asp:Label ID="Label2" runat="server" Text="Name"></asp:Label>
                     </th>
                     <td>
-                        <asp:TextBox ID="TextBox2" runat="server"></asp:TextBox>
+                     <%@ Page Language="C#" MasterPageFile="~/Web/Plantilla.Master" AutoEventWireup="true" CodeBehind="Person.aspx.cs" Inherits="App.Web.Person" %>
+   <asp:TextBox ID="TextBox2" runat="server"></asp:TextBox>
                     </td>
                 </tr>
                 <tr>

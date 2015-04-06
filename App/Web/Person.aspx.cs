@@ -18,7 +18,7 @@ namespace App.Web
 
         protected void Button1_Click(object sender, EventArgs e)
         {
-   
+
             long id = long.Parse(TextBox1.Text);
             long box = long.Parse(TextBox6.Text);
             App.Modelo.Person p = new App.Modelo.Person(id,
