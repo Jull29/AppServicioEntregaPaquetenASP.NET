@@ -1,4 +1,4 @@
-﻿<asp:Content ID="Content1" ContentPlaceHolderID="ContentPlaceHolder1" runat="server">
+﻿<asp:Content ID="1" ContentPlaceHolderID="Content1" runat="server">
     <div class="container">
     <div class="panel panel-default">
         <table class="table">
